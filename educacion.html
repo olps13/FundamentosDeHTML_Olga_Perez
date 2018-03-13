@@ -1,0 +1,117 @@
+<!Doctype html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable:no">
+<head>
+	<title>Hoja de vida</title>
+</head>
+<body>
+<header>
+	<h1>
+		<img src="images/Logo_HV_Olga.png" alt="Logo Olga" width="250px">
+		<p>Hoja de Vida</p></h1>
+	<h2>Datos Personales</h2>
+	<strong>Nombre: </strong>Olga Lucía Pérez Soto <br>
+	<strong>Fecha de nacimiento: </strong>1 de octubre de 1978 <br>
+	<strong>Lugar de nacimiento: </strong>Tunja, Boyacá (Colombia) <br><br><br>
+</header>
+<navbar>
+	<a href="index.html">&nbsp;Inicio&nbsp;</a>
+	|
+	<a href="experiencia.html">&nbsp;Experiencia&nbsp;</a>
+</navbar>
+<br>
+<br>
+<section>
+	<h2>Educación</h2>
+	<table border="1" cellpadding="10" cellspacing="0">
+		<thead>
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>Título</th>
+				<th>¿Culminó?</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2009</td>
+				<td>Universidad Pedagógica y Tecnológica de Colombia</td>
+				<td>Sogamoso-Boyacá</td>
+				<td>Tecnólogía en Sistemas de Información</td>
+				<td align="center">Sí</td>
+			</tr>
+			<tr>
+				<td>2013</td>
+				<td>Corporación Universitaria Remington</td>
+				<td>Sogamoso-Boyacá</td>
+				<td>Ingeniería de Sistemas</td>
+				<td align="center">Sí</td>
+			</tr>
+			<tr>
+				<td>2017</td>
+				<td>Institución Universitaria Politécnico Grancolombiano</td>
+				<td>Sogamoso-Boyacá</td>
+				<td>Especialización Tecnológica en Desarrollo de Aplicativos para Redes Móviles</td>
+				<td align="center">Sí</td>
+			</tr>
+		</tbody>
+	</table><br>
+	<h2>Agregar Estudios</h2>
+	<p>
+		<form name="formEstudios" autocomplete="on">
+			<fieldset style="width:800px">
+				<legend>Formulario de Estudios</legend>
+				<p>
+					<label for="año"><b>Año:</b>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+					<select class="año" name="año">
+						<option selected>2000</option>
+						<option>2001</option>
+						<option>2002</option>
+						<option>2003</option>
+						<option>2004</option>
+						<option>2005</option>
+						<option>2006</option>
+						<option>2007</option>
+						<option>2008</option>
+						<option>2009</option>
+						<option>2010</option>
+						<option>2011</option>
+						<option>2012</option>
+						<option>2013</option>
+						<option>2014</option>
+						<option>2015</option>
+						<option>2016</option>
+						<option>2017</option>
+						<option>2018</option>
+					</select>
+					<p>
+					<label for="institucion"><b>Institución:</b>&nbsp;</label>
+					<input id="institucion" type="text" name="Institución" placeholder="Ingrese el nombre de la Institución" size="60px" maxlength="100px" required autocomplete="on">
+					<p>
+					<label for="lugar"><b>Lugar:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+					<textarea name="Lugar" rows="3" cols="40" required="required" autocomplete="on"></textarea>
+					<p>
+					<label for="titulo"><b>Título:</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+					<input id="titulo" type="text" name="Título" placeholder="Ingrese el título obtenido o por obtener" size="80px" maxlength="120px" required autocomplete="on">
+					<p>
+					<label for="culmino"><b>¿Culminó?:</b> &nbsp;&nbsp;</label>
+					Sí<input type="radio" name="culmino" checked="on">
+					&nbsp;&nbsp;No<input type="radio" name="culmino">
+					<p>
+					<input type="submit" name="Enviar" value="Enviar">&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="reset" name="Limpiar" value="Limpiar Formulario">
+			</fieldset>
+		</form>
+</section>
+<br>
+<p></p>
+<footer>
+	<strong>Correo electrónico: </strong> olgaluciaps13@yahoo.es <br>
+	<strong>Teléfono: </strong> 3177722972 <br>
+	<strong>Redes Sociales: </strong> <a href="https://www.facebook.com/olga.l.soto.1" target="_blank">Facebook  </a>  | <a href="https://twitter.com/olgalps13" target="_blank">Twitter </a><br>
+
+</footer>
+</body>
+</html>
